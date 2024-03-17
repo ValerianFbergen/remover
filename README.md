@@ -1,2 +1,2 @@
 # remover
-Find and clean-up Mac OS temporary files (._*) and MS Office temp files (~$*)
+Find and clean-up Mac OS temporary files (._* ) and MS Office temp files (~$* )
