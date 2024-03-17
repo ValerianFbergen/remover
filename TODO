@@ -1,0 +1,5 @@
+- command line arguments
+-- only find mode/find  and remove mode
+-- path (getcwd or specify)
+-- type (mac's ._ or ms's ~$)
+-- quiet mode (suppress output)
