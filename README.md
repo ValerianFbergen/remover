@@ -3,7 +3,7 @@
 usage: remover.py [-h] [-mac] [-ds] [-mso] [-tmp] [-w TEXT] [-r] [-s] [-q] filepath [filepath ...]
 
 Recursively search and optionally delete files using built-in or user-specified wildcards. Useful for removing hidden
-temp files files placed by Mac OS (._* and .DS_STORE) and MS Office (~$*)
+temp files files placed by Mac OS (._* and .DS_STORE) and MS Office (~$* and *.tmp)
 
 positional arguments:
   filepath              Specify one or more filepaths for cleanup
