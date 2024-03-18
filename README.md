@@ -24,9 +24,18 @@ at least one of -w, -mac, -ds, -mso, -tmp arguments/flags must be specified
 
 # FAQ
 
+- can't run it on windows
+
+Make sure you have Python 3 installed.
+You cannot launch the file directly, call it from cmd.exe
+
+- can't run it on linux/unix/bsd/darwin
+
+sudo chmod +x remover.py
+
 - Help can't delete ~$WRL1969.tmp!
 
-MS Office temp files have "system" attribute, you need to call remover.py from cmd.exe run as admin.
+MS Office temp files have "system" attribute, you need to sudo/runas admin remover.py
 
 - Can i accidentaly rm -rf / myself?
 
